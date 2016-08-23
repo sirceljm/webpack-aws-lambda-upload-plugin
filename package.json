@@ -1,0 +1,29 @@
+{
+  "name": "webpack-aws-lambda-upload-plugin",
+  "version": "1.0.0",
+  "description": "Zip and upload your AWS Lambda function directly from webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sirceljm/webpack-aws-lambda-upload-plugin.git"
+  },
+  "keywords": [
+    "AWS",
+    "Lambda",
+    "webpack",
+    "upload"
+  ],
+  "author": "Matej Šircelj",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sirceljm/webpack-aws-lambda-upload-plugin/issues"
+  },
+  "homepage": "https://github.com/sirceljm/webpack-aws-lambda-upload-plugin#readme",
+  "devDependencies": {
+    "aws-sdk": "^2.5.2",
+    "node-zip": "^1.1.1"
+  }
+}
