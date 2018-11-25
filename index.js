@@ -20,7 +20,7 @@ function AWSUploadPlugin(options) {
     } catch(err) {
         throw new Error("node-zip not found");
     }
-	
+
     this.algorithm = function (content, filename, fn) {
         var zip = new JSZip();
         zip.file(filename, content);
@@ -94,7 +94,7 @@ AWSUploadPlugin.prototype.apply = function(compiler) {
                                     console.log(err, err.stack);
                                 } else {
                                     console.log(data);
-                                }           // successful response
+                                }
                             });
                         }
                     });
