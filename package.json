@@ -22,7 +22,7 @@
     "url": "https://github.com/sirceljm/webpack-aws-lambda-upload-plugin/issues"
   },
   "homepage": "https://github.com/sirceljm/webpack-aws-lambda-upload-plugin#readme",
-  "devDependencies": {
+  "dependencies": {
     "aws-sdk": "^2.5.2",
     "node-zip": "^1.1.1"
   }
